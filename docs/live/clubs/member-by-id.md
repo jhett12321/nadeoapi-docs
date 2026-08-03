@@ -1,9 +1,9 @@
 ---
-name: Get a club member
+name: Get club member by ID
 
 url: https://live-services.trackmania.nadeo.live
 method: GET
-route: /api/token/club/{clubId}/member/{memberId}
+route: /api/token/club/{clubId}/member/{accountId}
 
 audience: NadeoLiveServices
 
@@ -11,11 +11,11 @@ parameters:
   path:
     - name: clubId
       type: integer
-      description: The club's ID
+      description: The club ID of the club to get member information for
       required: true
-    - name: memberId
+    - name: accountId
       type: string
-      description: The member's account ID
+      description: The account ID of the account to get member information for
       required: true
 ---
 

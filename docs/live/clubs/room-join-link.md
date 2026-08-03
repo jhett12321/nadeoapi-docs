@@ -66,7 +66,7 @@ If the room is private and the player is not a member of the club, the response 
 ```
 
 In some rare cases the response may contain one of the following errors for unknown reasons (status 404):  
-This is consistent for a given room; and rooms with this error still appear as normal in [get club activities](/live/clubs/activities).
+This is consistent for a given room; and rooms with this error still appear as normal in [get club activities](/live/clubs/activities-by-club).
 
 ```json
 ["playerServer:error-notFound"]

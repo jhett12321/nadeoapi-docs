@@ -1,5 +1,5 @@
 ---
-name: Get club activities
+name: Get club activities by club
 
 url: https://live-services.trackmania.nadeo.live
 method: GET
@@ -31,7 +31,7 @@ parameters:
       description: Optional filter for activities in a folder
 ---
 
-Gets a list of club activities, including news, rooms, campaigns, and others.
+Gets a list of club activities, including news, rooms, campaigns, and others for a specified club.
 
 ---
 

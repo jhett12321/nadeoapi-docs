@@ -1,5 +1,5 @@
 ---
-name: Join a club
+name: Join club
 
 url: https://live-services.trackmania.nadeo.live
 method: POST
