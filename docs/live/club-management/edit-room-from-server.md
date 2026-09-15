@@ -1,5 +1,5 @@
 ---
-name: Edit club room from dedicated server
+name: Edit club room dedicated server activity
 
 url: https://live-services.trackmania.nadeo.live
 method: POST
